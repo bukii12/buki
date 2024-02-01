@@ -97,7 +97,7 @@ a {
 @media screen and (max-width: 500px) {
   .div {
     width: 500px;
-    background-position: right 60% bottom 45%;
+    background-position: right 90% bottom 45%;
   }
   .btn {
     width:200px;
@@ -107,7 +107,7 @@ a {
 @media screen and (max-width: 400px) {
   .div {
     width: 400px;
-    background-position: right 60% bottom 45%;
+    background-position: right 90% bottom 45%;
   }
   .btn {
     width:200px;
@@ -117,7 +117,7 @@ a {
 @media screen and (max-width:300px) {
   .div {
     width: 300px;
-    background-position: right 60% bottom 45%;
+    background-position: right 90% bottom 45%;
   }
   .btn {
     width:200px;
@@ -126,7 +126,7 @@ a {
 @media screen and (max-width:200px) {
   .div {
     width: 200px;
-    background-position: right 60% bottom 45%;
+    background-position: right 90% bottom 45%;
   }
   .btn {
     width:200px;
