@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+.div {
+  background-image: linear-gradient(41deg, rgb(4 13 28 / 80%) 0%, rgb(5 40 84 / 25%) 70%),url(photo2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 800px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.div h1 {
+  color: white;
+  font-size: 50px;
+}
+.div h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.t {
+    width: 500px;
+    padding: 300px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+.div{
+  background-image:linear-gradient(41deg, rgb(4 13 28 / 80%) 0%, rgb(5 40 84 / 25%) 70%),url(photo2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 500px;}
+.t{
+  width: 300px;
+  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 100px;
+  padding-left: 10px;
+}
+.div h1 {
+  color: white;
+  font-size: 20px;
+}
+.div h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+}
+.btn {
+  background-color: #E3F0FB;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #888888;
+  margin: auto;
+  display: inline-block;
+  width: 27.33%;
+  text-align: center;
+}
+
+.btn:active {
+  background-color: #7A8EBD;
+  color: #0056b3;
+}
+a:active {
+    color: #3A404D;
+}
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+  background-color:  #CFD7EA;
+}
+p {
+  color: white;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+  div {
+    width: 250px;
+  }
+  .btn {
+    width: 50px;
+  }
+}
