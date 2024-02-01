@@ -123,3 +123,12 @@ a {
     width:200px;
   }
 }
+@media screen and (max-width:200px) {
+  .div {
+    width: 200px;
+    background-position: right 30% bottom 45%;
+  }
+  .btn {
+    width:200px;
+  }
+}
