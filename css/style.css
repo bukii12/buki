@@ -33,7 +33,7 @@
   width: auto;
   height: 500px;}
 .t{
-  width: 300px;
+  width: 400px;
   padding: 10px;
   padding-bottom: 10px;
   padding-top: 100px;
@@ -84,10 +84,10 @@ a {
   text-decoration: none;
 }
 @media screen and (max-width: 500px) {
-  div {
-    width: 250px;
+  .div {
+    width: 500px;
   }
   .btn {
-    width: 50px;
+    width:200px;
   }
 }
