@@ -96,8 +96,11 @@ a {
 
 @media screen and (max-width: 500px) {
   .div {
-    width: 500px;
-    
+    background-image: linear-gradient(41deg, rgb(4 13 28 / 80%) 0%, rgb(5 40 84 / 25%) 70%),url(photo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 500px;
   }
   .btn {
     width:200px;
@@ -106,8 +109,11 @@ a {
 
 @media screen and (max-width: 400px) {
   .div {
-    width: 400px;
-   
+    background-image: linear-gradient(41deg, rgb(4 13 28 / 80%) 0%, rgb(5 40 84 / 25%) 70%),url(photo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 400px;
   }
   .btn {
     width:200px;
@@ -116,16 +122,11 @@ a {
 
 @media screen and (max-width:300px) {
   .div {
-    width: 300px;
-    
-  }
-  .btn {
-    width:200px;
-  }
-}
-@media screen and (max-width:200px) {
-  .div {
-    width: 200px;
+    background-image: linear-gradient(41deg, rgb(4 13 28 / 80%) 0%, rgb(5 40 84 / 25%) 70%),url(photo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 300px;
   }
   .btn {
     width:200px;
