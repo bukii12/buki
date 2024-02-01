@@ -91,3 +91,19 @@ a {
     width:200px;
   }
 }
+@media screen and (max-width: 400px) {
+  .div {
+    width: 400px;
+  }
+  .btn {
+    width:200px;
+  }
+}
+@media screen and (max-width:300px) {
+  .div {
+    width: 300px;
+  }
+  .btn {
+    width:200px;
+  }
+}
